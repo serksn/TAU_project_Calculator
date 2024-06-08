@@ -1,0 +1,183 @@
+  .charts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px,0,20px;
+    padding-bottom: 20px;
+  }
+  
+  .ContentWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding-top: 20px; 
+    box-sizing: border-box;
+    overflow-y: auto;
+    width: 97%;
+  }
+  
+  .FunctionSelectorWrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .FeedbackLoopWrapper {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #b3e0fd91;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #0288d1;
+}
+  
+  .Button {
+    width: 300px;
+    height: 40px;
+    background-color: #FFFFFF;
+    border: none;
+    margin-bottom: 5px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .active {
+    background-color: #007ACC;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+  }
+  
+  .SelectColumn, .InputColumn {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+  }
+  
+  .InputColumn > div {
+    margin-bottom: 10px;
+  }
+
+  .SelectColumn label {
+    margin-bottom: 5px;
+  }
+
+  .SelectColumn select {
+    padding: 5px;
+    font-size: 14px;
+  }
+  
+  .ButtonText {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: #000000;
+  }
+  
+  .Button:active {
+    background-color: #95BECF;
+  }
+  
+  .Button:active .ButtonText {
+    color: #FFFFFF;
+  }
+  
+  button {
+    border: none;
+    padding: 5px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #008fcc;
+  }
+  
+  .code-block {
+    background-color: #f0f8ff;
+    color: #000;
+    padding: 15px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    overflow-x: auto;
+    white-space: pre-wrap;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin-top: 15px;
+    max-width: 90%;
+  }
+  
+  .code-block code {
+    background-color: transparent;
+  }
+  
+  input {
+    background-color: #f0f8ff;
+    border: 2px solid #00bfff;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 14px;
+    color: #000;
+    margin-top: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  input:focus {
+    border-color: #008fcc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    outline: none;
+  }
+  
+  label {
+    font-size: 14px;
+    color: #000000;
+    margin-top: 5px;
+    display: block;
+  }
+  
+  .AddButton {
+    background-color: #00BFFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    margin: 20px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 5px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    display: block;
+  }
+  
+  .AddButton:hover {
+    background-color: #009ACD;
+  }
+
+  .RemoveButton {
+    background-color: #ff4d4d;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    margin: 20px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 5px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    display: block;
+  }
+  
+  .RemoveButton:hover {
+    background-color: #cc0000;
+  }
+
+  .Disabled {
+    display: None;
+  }
